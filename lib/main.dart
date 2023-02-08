@@ -42,7 +42,9 @@ class _MyAppState extends State<MyApp> {
     setState(() {
       isLoading = true;
     });
-    await Future.delayed(const Duration(seconds: 1));
+
+    await Future.delayed(
+        const Duration(seconds: 1)); // commenting this line solves the issue
 
     setState(() {
       isLoading = false;

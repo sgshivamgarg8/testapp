@@ -1,0 +1,1 @@
+xcrun simctl openurl booted customscheme://testapp.com/b
